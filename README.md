@@ -1,4 +1,4 @@
-# RK918/RK919 Firmware Updater
+# RK ROYAL KLUDGE RK918/RK919 Firmware Updater
 This repository is for the RK ROYAL KLUDGE RK918/RK919 US ANSI layout firmware updater. If you're having any issues related to installing the wrong firmware on your board, then this would help.
 
 # DISCLAIMER
@@ -7,9 +7,12 @@ I am not responsible for any damage or bricking that occurs if this firmware is 
 # Information
 The RK918 and RK919 share the same PCB and features. The RK918 is a slight revision of the original RK919 PCB.
 
-The MCU on these boards is a Huafenda HFD2201KBA, which is a rebranded Sonix SN32F248B.
+The MCU on these boards is a Huafenda HFD2201KBA, which is a rebranded Sonix SN32F248B. These microcontrollers run off of the 32-bit ARM-Cortex M0 architecture. You can find the data sheet here: https://www.sonix.com.tw/article-en-4336-30356
 
-The bootloader on these keyboards are unbrickable, as the bootloader on these chips are stored in ROM (Read-Only Memory) on the MCU. Even if you flash a completely incompatible firmware on the board, the keyboard will still light up or play a connect sound once you plug it in.
+The bootloader on these keyboards are unbrickable, as the bootloader on these chips are stored in ROM (Read-Only Memory) on the MCU. Even if you flash a completely incompatible firmware on the board, the keyboard will still light up partially in different areas or play a connect sound once you plug it in.
+
+<img width="729" height="218" alt="image" src="https://github.com/user-attachments/assets/e6767567-a077-451c-9f93-81fb6330a028" />
+
 
 Both boards share the same Vendor ID/Product ID (0C45:8006), also used by older RK61 models.
 
@@ -30,9 +33,9 @@ With the keyboard unplugged, short the two pads using a bent paper clip or simil
 
 While keeping the pads shorted, plug in the keyboard.
 
-If no lighting appears and the keyboard is detected with a VID/PID of 0C45:7040, then congratulations. You are now in bootloader mode.
+If no lighting appears and the keyboard is detected with a VID/PID of 0C45:7040, then congratulations. You are now in bootloader mode. Safely remove the paper clip off of the pads.
 
-Extract and run the firmware updater. Wait several seconds until you hear the disconnect/reconnect sound and the keyboard powering on with side lighting and a ripple effect.
+Extract and run the firmware updater. Wait several seconds until you hear the disconnect/reconnect sound and see the keyboard powering on with side lighting and a ripple effect below:
 
 ![RK918 boot compressed](https://github.com/user-attachments/assets/ca631e79-af68-4146-8e9c-036fecca397c)
 
