@@ -4,8 +4,10 @@
 This repository is for the RK ROYAL KLUDGE RK918/RK919 US ANSI (or UK) layout firmware updater. If you're having any issues related to installing the wrong firmware on your board, then this would help.
 This firmware updater tool was sent by the engineers at rd02@rkgaming.com Huge thanks to them for successfully recovering my RK918
 
+
 # DISCLAIMER
 I am not responsible for any damage or bricking that occurs if this firmware is used on an incompatible keyboard. Use at your own risk.
+
 
 # Information
 The RK918 and RK919 share the same PCB and features. The RK918 is a slight revision of the original RK919 PCB. If you take a look underneath the space bar of both keyboards, it will show "RK919 RK918 HFD", as shown below:
@@ -24,6 +26,7 @@ The RK61 software can be used for lighting configurations on the RK918/RK919, th
 
 Don't bve fooled by the file name. The name of the updater is "RK919_RGB Mechanical UK_V1.63_201107(2201)_With White Light Test_02_En" (translated). This firmware updater tool is meant for both US/UK layout keyboards, with no complications between the two layouts.
 
+
 # Firmware update
 
 Running the firmware updater regularly is a straightforward process.
@@ -36,6 +39,7 @@ Running the firmware updater regularly is a straightforward process.
 The keyboard will start updating. Unplugging the keyboard will result in a keyboard stuck in bootloader mode until you reflash the firmware. This process usually takes about 15-30 seconds to update. I have speed up the recording to show the progress as shown below:
 
 ![HFDISP2025-10-0200-36-13online-video-cutter com-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/2ae11d67-3fd7-499b-8af8-9f214698d62b)
+
 
 # Firmware update using ISP mode
 
