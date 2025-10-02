@@ -1,5 +1,5 @@
 # RK ROYAL KLUDGE RK918/RK919 Firmware Updater
-<img width="608" height="299" alt="RK918" src="https://github.com/user-attachments/assets/4d8a43a4-93d0-4a15-b60a-ad151ecc8f4b" />
+<img width="608" height="299" alt="RK logo" src="https://github.com/user-attachments/assets/90ca562b-454c-4ab9-a1ba-7a427c989565" />
 
 This repository is for the RK ROYAL KLUDGE RK918/RK919 US ANSI layout firmware updater. If you're having any issues related to installing the wrong firmware on your board, then this would help.
 
