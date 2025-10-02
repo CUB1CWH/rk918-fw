@@ -2,13 +2,16 @@
 <img width="608" height="299" alt="RK logo" src="https://github.com/user-attachments/assets/90ca562b-454c-4ab9-a1ba-7a427c989565" />
 
 This repository is for the RK ROYAL KLUDGE RK918/RK919 US ANSI layout firmware updater. If you're having any issues related to installing the wrong firmware on your board, then this would help.
-This firmware updater tool was sent by the engineers at rd02@rkgaming.com
+This firmware updater tool was sent by the engineers at rd02@rkgaming.com Huge thanks to them for successfully recovering my RK918
 
 # DISCLAIMER
 I am not responsible for any damage or bricking that occurs if this firmware is used on an incompatible keyboard. Use at your own risk.
 
 # Information
-The RK918 and RK919 share the same PCB and features. The RK918 is a slight revision of the original RK919 PCB.
+The RK918 and RK919 share the same PCB and features. The RK918 is a slight revision of the original RK919 PCB. If you take a look underneath the space bar of both keyboards, it will show "RK919 RK918 HFD", as shown below:
+
+<img width="636" height="666" alt="image" src="https://github.com/user-attachments/assets/8bb99973-66c3-400c-9eeb-eae7a1ce5802" />
+
 
 The MCU on these boards is a Huafenda HFD2201KBA, which is a rebranded Sonix SN32F248B microcontroller. These microcontrollers run off of the 32-bit ARM-Cortex M0 architecture. You can find the data sheet here: https://www.sonix.com.tw/article-en-4336-30356
 
