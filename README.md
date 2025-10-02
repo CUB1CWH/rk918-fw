@@ -10,7 +10,7 @@ I am not responsible for any damage or bricking that occurs if this firmware is 
 
 
 # Information
-The RK918 and RK919 share the same PCB and features. The RK918 is a slight revision of the original RK919 PCB. If you take a look underneath the space bar of both keyboards, it will show "RK919 RK918 HFD", as shown below:
+The RK918 and RK919 share the same PCB and features. The RK918 is a slight revision of the original RK919 PCB. If you take a look underneath the space bar of both keyboards, it will show "919 918 HFD", as shown below:
 
 <img width="636" height="666" alt="image" src="https://github.com/user-attachments/assets/8bb99973-66c3-400c-9eeb-eae7a1ce5802" />
 
@@ -24,7 +24,7 @@ Both boards share the same Vendor ID/Product ID (0C45:8006), also used by older 
 
 The RK61 software can be used for lighting configurations on the RK918/RK919, though it lacks support for side lighting present on the RK918/RK919.
 
-Don't be fooled by the file name. The name of the updater is "RK919_RGB Mechanical UK_V1.63_201107(2201)_With White Light Test_02_En" (translated). This firmware updater tool is meant for both US/UK layout keyboards, with no complications between the two layouts.
+The name of the updater is "RK919_RGB Mechanical UK_V1.63_201107(2201)_With White Light Test_02_En" (translated). This firmware updater tool is meant for both US/UK layout keyboards, with no complications between the two layouts.
 
 
 # Firmware update
@@ -45,7 +45,7 @@ The keyboard will start updating. You will notice the lighting on your keyboard 
 
 <img width="542" height="293" alt="image" src="https://github.com/user-attachments/assets/34c22e54-d9d5-4ed8-acf6-4b0e433e74e9" />
 
-In some cases, the firmware updater may fail to detect your keyboard. This is often due to a missing or incorrect VID/PID, depending on the firmware currently installed. The firmware updater for most HFD keyboards only detect based off of VID (0c45). Luckily the RK918 features an In-System Programming (ISP) mode, which allows direct firmware flashing even when the updater does not detect the device automatically. The board requires 15 Philips head screws to disassemble the keyboard. One you've disassembled the board, you'll notice two chips. To determine the MCU location on the keyboard, it's typically the largest chip on the board. Any other chip may be an LED driver (HFD9901LIA). Next to the MCU, you will find two small pads.
+In some cases, the firmware updater may fail to detect your keyboard. This is often due to a missing or incorrect VID/PID, depending on the firmware currently installed. The firmware updater for most HFD keyboards only detect based off of VID (0c45). Luckily the RK918 features an In-System Programming (ISP) mode, which allows direct firmware flashing even when the updater does not detect the device automatically. The board requires 17 Philips head screws to disassemble the keyboard. One you've disassembled the board, you'll notice two chips. To determine the MCU location on the keyboard, it's typically the largest chip on the board. Any other chip may be an LED driver (HFD9901LIA). Next to the MCU, you will find two small pads.
 
 <img width="678" height="915" alt="image" src="https://github.com/user-attachments/assets/19c3e355-4af0-4e87-a40b-88c3eb6daf6a" />
 
