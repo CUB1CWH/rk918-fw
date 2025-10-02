@@ -24,7 +24,7 @@ Both boards share the same Vendor ID/Product ID (0C45:8006), also used by older 
 
 The RK61 software can be used for lighting configurations on the RK918/RK919, though it lacks support for side lighting present on the RK918/RK919.
 
-Don't bve fooled by the file name. The name of the updater is "RK919_RGB Mechanical UK_V1.63_201107(2201)_With White Light Test_02_En" (translated). This firmware updater tool is meant for both US/UK layout keyboards, with no complications between the two layouts.
+Don't be fooled by the file name. The name of the updater is "RK919_RGB Mechanical UK_V1.63_201107(2201)_With White Light Test_02_En" (translated). This firmware updater tool is meant for both US/UK layout keyboards, with no complications between the two layouts.
 
 
 # Firmware update
