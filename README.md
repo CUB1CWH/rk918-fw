@@ -36,7 +36,7 @@ Running the firmware updater regularly is a straightforward process.
 3. Open the updater
 4. Press "Start"
 
-The keyboard will start updating. Unplugging the keyboard will result in a keyboard stuck in bootloader mode until you reflash the firmware. This process usually takes about 15-30 seconds to update. I have speed up the recording to show the progress as shown below:
+The keyboard will start updating. You will notice the lighting on your keyboard completely dark besides the side lighting remaining at it's last state. Unplugging the keyboard will result in a keyboard stuck in bootloader mode until you reflash the firmware. This process usually takes about 15-30 seconds to update. I have speed up the recording to show the progress as shown below:
 
 ![HFDISP2025-10-0200-36-13online-video-cutter com-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/2ae11d67-3fd7-499b-8af8-9f214698d62b)
 
