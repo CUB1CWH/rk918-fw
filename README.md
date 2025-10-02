@@ -1,7 +1,7 @@
 # Introduction
 <img width="608" height="299" alt="RK logo" src="https://github.com/user-attachments/assets/90ca562b-454c-4ab9-a1ba-7a427c989565" />
 
-This repository is for the RK ROYAL KLUDGE RK918/RK919 US ANSI layout firmware updater. If you're having any issues related to installing the wrong firmware on your board, then this would help.
+This repository is for the RK ROYAL KLUDGE RK918/RK919 US ANSI (or UK) layout firmware updater. If you're having any issues related to installing the wrong firmware on your board, then this would help.
 This firmware updater tool was sent by the engineers at rd02@rkgaming.com Huge thanks to them for successfully recovering my RK918
 
 # DISCLAIMER
@@ -12,7 +12,6 @@ The RK918 and RK919 share the same PCB and features. The RK918 is a slight revis
 
 <img width="636" height="666" alt="image" src="https://github.com/user-attachments/assets/8bb99973-66c3-400c-9eeb-eae7a1ce5802" />
 
-
 The MCU on these boards is a Huafenda HFD2201KBA, which is a rebranded Sonix SN32F248B microcontroller. These microcontrollers run off of the 32-bit ARM-Cortex M0 architecture. You can find the data sheet here: https://www.sonix.com.tw/article-en-4336-30356
 
 The bootloader on these keyboards are unbrickable, as the bootloader on these chips are stored in ROM (Read-Only Memory) on the MCU. Even if you flash a completely incompatible firmware on the board, the keyboard will still light up partially in different areas or play a connect sound once you plug it in.
@@ -22,6 +21,21 @@ The bootloader on these keyboards are unbrickable, as the bootloader on these ch
 Both boards share the same Vendor ID/Product ID (0C45:8006), also used by older RK61 models.
 
 The RK61 software can be used for lighting configurations on the RK918/RK919, though it lacks support for side lighting present on the RK918/RK919.
+
+Don't bve fooled by the file name. The name of the updater is "RK919_RGB Mechanical UK_V1.63_201107(2201)_With White Light Test_02_En" (translated). This firmware updater tool is meant for both US/UK layout keyboards, with no complications between the two layouts.
+
+# Firmware update
+
+Running the firmware updater regularly is a straightforward process.
+
+1. Extract the file
+2. Look for "RK919_RGB机械 UK_V1.63_201107(2201)_带白光测试_02_En.exe"
+3. Open the updater
+4. Press "Start"
+
+The keyboard will start updating. Unplugging the keyboard will result in a keyboard stuck in bootloader mode until you reflash the firmware. This process usually takes about 15-30 seconds to update. I have speed up the recording to show the progress as shown below:
+
+![HFDISP2025-10-0200-36-13online-video-cutter com-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/2ae11d67-3fd7-499b-8af8-9f214698d62b)
 
 # Firmware update using ISP mode
 
@@ -39,7 +53,7 @@ While keeping the pads shorted, plug in the keyboard.
 
 If no lighting appears and the keyboard is detected with a VID/PID of 0C45:7040, then congratulations. You are now in bootloader mode. Safely remove the paper clip off of the pads.
 
-Extract and run the firmware updater. Wait several seconds until you hear the disconnect/reconnect sound and see the keyboard powering on with side lighting and a ripple effect as shown below:
+Extract and run the firmware updater. Wait 15-30 seconds until you hear the disconnect/reconnect sound and see the keyboard powering on with side lighting and a ripple effect as shown below:
 
 ![RK918 boot compressed](https://github.com/user-attachments/assets/ca631e79-af68-4146-8e9c-036fecca397c)
 
