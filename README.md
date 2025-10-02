@@ -2,6 +2,7 @@
 <img width="608" height="299" alt="RK logo" src="https://github.com/user-attachments/assets/90ca562b-454c-4ab9-a1ba-7a427c989565" />
 
 This repository is for the RK ROYAL KLUDGE RK918/RK919 US ANSI layout firmware updater. If you're having any issues related to installing the wrong firmware on your board, then this would help.
+This firmware updater tool was sent by the engineers at rd02@rkgaming.com
 
 # DISCLAIMER
 I am not responsible for any damage or bricking that occurs if this firmware is used on an incompatible keyboard. Use at your own risk.
