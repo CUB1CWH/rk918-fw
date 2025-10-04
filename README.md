@@ -1,7 +1,7 @@
 # Introduction
 <img width="608" height="299" alt="RK logo" src="https://github.com/user-attachments/assets/90ca562b-454c-4ab9-a1ba-7a427c989565" />
 
-This repository is for the RK ROYAL KLUDGE RK918/RK919 US ANSI (or UK) layout firmware updater. If you're having any issues related to installing the wrong firmware on your board, then this would help.
+This repository is for the RK ROYAL KLUDGE RK918/RK919 US ANSI (or UK) layout firmware updater. If you're having any issues related to installing the wrong firmware on your board or need to rewrite/sniff the firmware, then this would help.
 This firmware updater tool was sent by the engineers at rd02@rkgaming.com Huge thanks to them for successfully recovering my RK918
 
 
@@ -16,7 +16,7 @@ The RK918 and RK919 share the same PCB and features. The RK918 is a slight revis
 
 The MCU on these boards is a Huafenda HFD2201KBA, which is a rebranded Sonix SN32F248B microcontroller. These microcontrollers run off of the 32-bit ARM-Cortex M0 architecture. You can find the data sheet here: https://www.sonix.com.tw/article-en-4336-30356
 
-The bootloader on these keyboards are unbrickable, as the bootloader on these chips are stored in ROM (Read-Only Memory) on the MCU. Even if you flash a completely incompatible firmware on the board, the keyboard will still light up partially in different areas or play a connect sound once you plug it in.
+The bootloader on these keyboards are unbrickable, as the bootloader on these chips are stored in ROM (Read-Only Memory) on the MCU. Even if you flash a completely incompatible firmware on the board, the keyboard will still light up partially in different areas or play a connect sound once you plug it in. There won't be a VID/PID dependng on what firmware you currently have installed on the keyboard.
 
 <img width="729" height="218" alt="image" src="https://github.com/user-attachments/assets/e6767567-a077-451c-9f93-81fb6330a028" />
 
@@ -37,6 +37,9 @@ Running the firmware updater regularly is a straightforward process.
 4. Press "Start"
 
 The keyboard will start updating. You will notice the lighting on your keyboard completely dark besides the side lighting remaining at it's last state. Unplugging the keyboard will result in a keyboard stuck in bootloader mode until you reflash the firmware. This process usually takes about 15-30 seconds to update. I have speed up the recording to show the progress as shown below:
+
+<img width="1171" height="358" alt="image" src="https://github.com/user-attachments/assets/36f58f2f-2ee5-4b31-815b-3c35fadeb914" />
+
 
 ![HFDISP2025-10-0200-36-13online-video-cutter com-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/2ae11d67-3fd7-499b-8af8-9f214698d62b)
 
