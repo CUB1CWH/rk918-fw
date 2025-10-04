@@ -40,7 +40,7 @@ The keyboard will start updating. You will notice the lighting on your keyboard 
 
 ![HFDISP2025-10-0200-36-13online-video-cutter com-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/2ae11d67-3fd7-499b-8af8-9f214698d62b)
 
-<img width="366" height="135" alt="image" src="https://github.com/user-attachments/assets/99ff5cb3-5394-486a-ab6c-043b277903cb" />
+<img width="572" height="205" alt="image" src="https://github.com/user-attachments/assets/e029aed9-ed3f-4f5e-9dc9-9e0e3e02279f" />
 
 
 # Firmware update using ISP mode
