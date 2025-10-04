@@ -51,7 +51,7 @@ In some cases, the firmware updater may fail to detect your keyboard. This is of
 
 <img width="678" height="915" alt="image" src="https://github.com/user-attachments/assets/19c3e355-4af0-4e87-a40b-88c3eb6daf6a" />
 
-These pads are used to enter bootloader mode, which is important if the firmware updater tool cannot detect the keyboard. To use them:
+These pads are used to enter bootloader mode, which is important if the firmware updater tool cannot detect the keyboard. This is also important if you cannot get the keyboard to work at all. To use them:
 
 With the keyboard unplugged, short the two pads using a bent paper clip or similar tool.
 
